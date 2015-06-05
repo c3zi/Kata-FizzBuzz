@@ -1,0 +1,27 @@
+{
+    "name": "kata/fizzbuzz",
+    "description": "Code Kata: Prints the numbers from 1 to 100.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Przemyslaw Furtak",
+            "email": "przemyslaw.furtak@rebelsoft.pl"
+        }
+    ],
+    "required": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kata\\FizzBuzz\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kata\\FizzBuzz\\Test\\": "tests"
+        }
+    }
+}
